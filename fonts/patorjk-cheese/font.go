@@ -3,12 +3,12 @@ package asciiart
 import (
 	_ "embed"
 
-	"github.com/romance-dev/ascii-art"
+	asciiart "github.com/romance-dev/ascii-art"
 )
 
 //go:embed font.flf
 var font []byte
 
 func init() {
-	asciiart.RegisterFont("banner3-D", font)
+	asciiart.RegisterFont("patorjk-cheese", font)
 }
